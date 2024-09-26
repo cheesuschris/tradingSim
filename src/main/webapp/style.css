@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box; 
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #0a8f2d, #12b292, #450cd7);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 40px 30px rgba(35, 35, 35, 0.1);
+    color: #f4ebeb;
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(13, 7, 7, 0.34);
+    flex-basis: content;
+    height:600px;
+    padding: 20px 35px;
+    text-align: left;
+    
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(21, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #f2f3ff;
+    font-size: 50px;
+    overflow: auto;
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+}
+
+.userStockSearch{
+    backdrop-filter: blur(0.001px);
+    color: #ffffff;
+    font-size: 30px;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+}
+
+.market-buttons{
+    backdrop-filter: blur(0.001px);
+    color: #ffffff;
+    font-size: 1px;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+}
+
+.userStockSearch input{
+    font-size:22.5px;
+}
+
+.buy-button{
+    font-size:30px;
+    transform: translateX(-75px);
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    padding: 5px;
+    height:45px;
+    font-style:inherit;
+}
+
+.sell-button{
+    font-size:30px;
+    transform: translateX(75px);
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    padding: 5px;
+    height:45px;
+    font-style:inherit;
+}
+
+.buying-power{
+    font-size:30px;
+    text-align:center;
+    padding:15px;
+}

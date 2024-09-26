@@ -1,0 +1,5 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.autoSave": "onWindowChange",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
